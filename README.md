@@ -17,7 +17,7 @@ If supplied an image of a  human, the code will identify the resembling dog bree
 We will work on a CNN from scratch as well as apply transfer learning to use state-of-the-art CNN architectures.  
 
 
-The datasets can be downloaded here:
+The datasets can be downloaded here:   
 [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)   
 [human_dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)  
 
