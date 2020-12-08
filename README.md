@@ -57,8 +57,8 @@ See the well 'dog_app.ipynb' for instructions.
 
 ## Results  
 
-<img src="my_images/matiff.JPG" height="256" width="256">   
-<img src="my_images/trump.JPG" height="256" width="256">  
+<img src="my_images/matiff.JPG">   
+<img src="my_images/trump.JPG">  
 
 
 ## Happy Coding!
