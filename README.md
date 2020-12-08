@@ -18,8 +18,8 @@ We will work on a CNN from scratch as well as apply transfer learning to use sta
 
 
 The datasets can be downloaded here:
-[dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
-[human_dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
+[dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)   
+[human_dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)  
 
 ## CNN Structures (Building a model from scratch)
 
@@ -38,13 +38,12 @@ Net(
   
   (drop): Dropout(p=0.3)
   (fc1): Linear(in_features=6272, out_features=512, bias=True)
-  F.relu()
-  
-  (drop): Dropout(p=0.3)
-  (fc2): Linear(in_features=512, out_features=133, bias=True)
-  F.relu()
-)
------  
+  F.relu()  
+  (drop): Dropout(p=0.3)  
+  (fc2): Linear(in_features=512, out_features=133, bias=True)  
+  F.relu()  
+)  
+-----    
 
 -	Accuracy achieved on this model is **13%**  
 
