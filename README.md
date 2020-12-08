@@ -45,21 +45,20 @@ Net(
   F.relu()  
 )   
   
--	Accuracy achieved on this model is **13%**  
-
+-	Accuracy achieved on this model is **13%**  (greater than the benchmark 10% accuracy for this step)  
 
 ## Transfer Learnings
 
-Then we used InceptionV3 for Transfer Learning
+Then we used InceptionV3 for Transfer Learning   
 See the well 'dog_app.ipynb' for instructions.  
 
-- Accuracy achieved after transfer learning is **85%**
+- Accuracy achieved after transfer learning is **85%**  
 
 
 ## Results  
 
-<img src="my_images/matiff.JPG" height="512" width="512">
-<img src="my_images/trump.JPG" height="512" width="512">
+<img src="my_images/matiff.JPG" height="256" width="256">   
+<img src="my_images/trump.JPG" height="256" width="256">  
 
 
 ## Happy Coding!
