@@ -21,6 +21,7 @@ The datasets can be downloaded here:
 [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)   
 [human_dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)  
 
+  
 ## CNN Structures (Building a model from scratch)
 
 Net(  
@@ -36,15 +37,14 @@ Net(
   F.relu()
   (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
   
-  (drop): Dropout(p=0.3)
-  (fc1): Linear(in_features=6272, out_features=512, bias=True)
-  F.relu()  
   (drop): Dropout(p=0.3)  
-  (fc2): Linear(in_features=512, out_features=133, bias=True)  
+  (fc1): Linear(in_features=6272, out_features=512, bias=True)  
+  F.relu()   
+  (drop): Dropout(p=0.3)   
+  (fc2): Linear(in_features=512, out_features=133, bias=True)    
   F.relu()  
-)  
------    
-
+)   
+  
 -	Accuracy achieved on this model is **13%**  
 
 
