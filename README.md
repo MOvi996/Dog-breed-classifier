@@ -2,19 +2,15 @@
 
 For software requirements: see "requirements.txt" file.
 
-**Udacity's original repo is [here](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/project-dog-classification)**
-
-
-
 ## Project Introduction
 
-In this project, you will build a dog breed classifier pipeline that can be used within a web or mobile app to identify dog breeds in real time.  
-Given an image of a dog, your algorithm will  identify an estimate of the canine’s breed.  
-If supplied an image of a  human, the code will identify the resembling dog breed.  
+In this project, I've built a dog breed classifier pipeline that can be used within a web or mobile app to identify dog breeds in real time.  
+Given an image of a dog, the algorithm will  identify an estimate of the canine’s breed.  
+If supplied an image of a human, the code will identify the resembling dog breed.  
 
 [![Sample Output](https://github.com/udacity/deep-learning-v2-pytorch/raw/master/project-dog-classification/images/sample_dog_output.png)](https://github.com/udacity/deep-learning-v2-pytorch/blob/master/project-dog-classification/images/sample_dog_output.png)
 
-We will work on a CNN from scratch as well as apply transfer learning to use state-of-the-art CNN architectures.  
+I will work on a CNN from scratch as well as apply transfer learning to use state-of-the-art CNN architectures.  
 
 
 The datasets can be downloaded here:   
